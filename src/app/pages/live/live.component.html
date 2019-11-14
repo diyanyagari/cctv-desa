@@ -1,0 +1,52 @@
+<div class="header bg-gradient-danger pb-8 pt-5 pt-md-8">
+  <div style="margin-top: 35px;" class="container-fluid">
+    <div class="header-body">
+      <!-- Card stats -->
+      <div class="row">
+        <div class="col-xl-8 col-lg-12">
+          <div class="card card-stats mb-4 mb-xl-0">
+            <div class="card-body">
+              <div style="text-align: center;" class="col">
+                <!-- <img class="responsive" style="-webkit-user-select: none;margin: auto; height: 400px; weight: 400px" [src]="sourceVideo" /> -->
+                <img onerror="this.src='/assets/img/theme/error2.png'" [src]="sourceVideo" alt="Nature" class="responsive" width="600" height="400">
+                <!-- <img *ngIf="!isSuccess" src="assets/img/theme/error2.png" alt="Nature" class="responsive" width="100" height="100"> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <div class="card shadow">
+            <div class="card-header border-0">
+              <div class="row align-items-center">
+                <div class="col">
+                  <h4 class="mb-0">List Camera</h4>
+                </div>
+                <div class="col text-right">
+                  <a (click)="ngOnInit()" style="color: aliceblue;" class="btn btn-sm btn-primary">Refresh</a>
+                </div>
+              </div>
+            </div>
+            <div class="table-responsive">
+              <table class="table align-items-center table-flush">
+                <tbody>
+                  <tr>
+                    <th (click)="changeCam(1)" scope="row">
+                      <button *ngIf="param==1" type="button" class="btn btn-primary">Camera 1</button>
+                      <button *ngIf="param!=1" type="button" class="btn btn-secondary">Camera 1</button>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th (click)="changeCam(2)" scope="row">
+                      <button *ngIf="param==2" type="button" class="btn btn-primary">Camera 2</button>
+                      <button *ngIf="param!=2" type="button" class="btn btn-secondary">Camera 2</button>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
