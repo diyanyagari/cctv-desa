@@ -1,1 +1,28 @@
-<mxfile host="www.draw.io" modified="2019-11-21T03:09:11.615Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" version="12.2.7" etag="YtOrQHpulK5mEYyygPIm" type="github" pages="1"><diagram id="U0ORwDh0ulqRJtdMXGj9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-21T03:13:07.011Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="2sEvVXtwos1TaHnpdHgW" version="12.2.7" type="github" pages="1">
+  <diagram id="U0ORwDh0ulqRJtdMXGj9" name="Page-1">
+    <mxGraphModel dx="854" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="VUr0LtkLLdcnJvSVttsn-1" value="Camera&lt;br&gt;CCTV" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="VUr0LtkLLdcnJvSVttsn-2" value="Raspberry pi" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="150" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="VUr0LtkLLdcnJvSVttsn-3" value="Web Page" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="540" y="130" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="VUr0LtkLLdcnJvSVttsn-4" value="Motion&lt;br&gt;Detector" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="210" y="120" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="VUr0LtkLLdcnJvSVttsn-5" value="Night&lt;br&gt;Vision" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="210" y="200" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="VUr0LtkLLdcnJvSVttsn-6" value="Mobile Apps" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="540" y="210" width="50" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
